@@ -1,3 +1,5 @@
+//Current Problems to be fixed: I need to unhide one photo from each generation. Current code only unhides one photo at a time.
+
 const bulbasaur = document.querySelector('#bulbasaur')
 const squirtle = document.querySelector('#squirtle')
 const charmander = document.querySelector('#charmander')
@@ -28,7 +30,15 @@ function bulbasaurNext(){
 	squirtle.classList.add('hidden')
 	pikachu.classList.add('hidden')
 	totodile.classList.add('hidden')
+	chikorita.classList.add('hidden')
+	cyndaquil.classList.add('hidden')
+	treecko.classList.add('hidden')
+	mudkip.classList.add('hidden')
+	torchic.classList.add('hidden')
 	bulbasaur.classList.toggle('hidden')
+
+
+
 }
 
 function claireNext(){
