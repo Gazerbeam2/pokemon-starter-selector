@@ -1,5 +1,6 @@
 //Current Problems to be fixed: I need to unhide one photo from each generation. Current code only unhides one photo at a time.
-//I need the conditional to 
+//Possible Test: Keep the ones of the different generation toggled but hide the ones from the same generation
+//Add background music and maybe sprites
 
 const bulbasaur = document.querySelector('#bulbasaur')
 const squirtle = document.querySelector('#squirtle')
@@ -39,6 +40,23 @@ function bulbasaurNext(){
 	bulbasaur.classList.toggle('hidden')
 
 
+
+}
+
+function charmanderNext(){
+	charmander.classList.add('hidden')
+	squirtle.classList.add('hidden')
+	pikachu.classList.add('hidden')
+	totodile.classList.add('hidden')
+	chikorita.classList.add('hidden')
+	cyndaquil.classList.add('hidden')
+	treecko.classList.add('hidden')
+	mudkip.classList.add('hidden')
+	torchic.classList.add('hidden')
+	bulbasaur.classList.toggle('hidden')
+}
+
+function squirtleNext(){
 
 }
 
