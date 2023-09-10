@@ -1,4 +1,5 @@
 //Current Problems to be fixed: I need to unhide one photo from each generation. Current code only unhides one photo at a time.
+//I need the conditional to 
 
 const bulbasaur = document.querySelector('#bulbasaur')
 const squirtle = document.querySelector('#squirtle')
