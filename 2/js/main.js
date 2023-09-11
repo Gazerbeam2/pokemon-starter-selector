@@ -15,15 +15,15 @@ const torchic = document.querySelector('#torchic')
 
 
 document.querySelector('#bulbasaurHead').addEventListener('click', bulbasaurNext)
-document.querySelector('#squirtleHead').addEventListener('click', claireNext)
-document.querySelector('#charmanderHead').addEventListener('click', sharleenNext)
-document.querySelector('#pikachuHead').addEventListener('click',)
-document.querySelector('#totodileHead').addEventListener('click',)
-document.querySelector('#chikoritaHead').addEventListener('click',)
-document.querySelector('#cyndaquilHead').addEventListener('click',)
-document.querySelector('#treeckoHead').addEventListener('click',)
-document.querySelector('#torchicHead').addEventListener('click',)
-document.querySelector('#mudkipHead').addEventListener('click',)
+document.querySelector('#squirtleHead').addEventListener('click', squirtleNext)
+document.querySelector('#charmanderHead').addEventListener('click', charmanderNext)
+document.querySelector('#pikachuHead').addEventListener('click', pikachuNext)
+document.querySelector('#totodileHead').addEventListener('click',totodileNext)
+document.querySelector('#chikoritaHead').addEventListener('click',chikoritaNext)
+document.querySelector('#cyndaquilHead').addEventListener('click',cyndaquilNext)
+document.querySelector('#treeckoHead').addEventListener('click',treeckoNext)
+document.querySelector('#torchicHead').addEventListener('click',torchicNext)
+document.querySelector('#mudkipHead').addEventListener('click',mudkipNext)
 
 
 
@@ -39,12 +39,10 @@ function bulbasaurNext(){
 	torchic.classList.add('hidden')
 	bulbasaur.classList.toggle('hidden')
 
-
-
 }
 
 function charmanderNext(){
-	charmander.classList.add('hidden')
+	charmander.classList.toggle('hidden')
 	squirtle.classList.add('hidden')
 	pikachu.classList.add('hidden')
 	totodile.classList.add('hidden')
@@ -53,21 +51,111 @@ function charmanderNext(){
 	treecko.classList.add('hidden')
 	mudkip.classList.add('hidden')
 	torchic.classList.add('hidden')
-	bulbasaur.classList.toggle('hidden')
+	bulbasaur.classList.add('hidden')
 }
 
 function squirtleNext(){
+	charmander.classList.add('hidden')
+	squirtle.classList.toggle('hidden')
+	pikachu.classList.add('hidden')
+	totodile.classList.add('hidden')
+	chikorita.classList.add('hidden')
+	cyndaquil.classList.add('hidden')
+	treecko.classList.add('hidden')
+	mudkip.classList.add('hidden')
+	torchic.classList.add('hidden')
+	bulbasaur.classList.add('hidden')
+}
+
+function pikachuNext(){
+	charmander.classList.add('hidden')
+	squirtle.classList.add('hidden')
+	pikachu.classList.toggle('hidden')
+	totodile.classList.add('hidden')
+	chikorita.classList.add('hidden')
+	cyndaquil.classList.add('hidden')
+	treecko.classList.add('hidden')
+	mudkip.classList.add('hidden')
+	torchic.classList.add('hidden')
+	bulbasaur.classList.add('hidden')
+}
+
+function totodileNext(){
+	charmander.classList.add('hidden')
+	squirtle.classList.add('hidden')
+	pikachu.classList.add('hidden')
+	totodile.classList.toggle('hidden')
+	chikorita.classList.add('hidden')
+	cyndaquil.classList.add('hidden')
+	treecko.classList.add('hidden')
+	mudkip.classList.add('hidden')
+	torchic.classList.add('hidden')
+	bulbasaur.classList.add('hidden')
+}
+
+function chikoritaNext(){
+	charmander.classList.add('hidden')
+	squirtle.classList.add('hidden')
+	pikachu.classList.add('hidden')
+	totodile.classList.add('hidden')
+	chikorita.classList.toggle('hidden')
+	cyndaquil.classList.add('hidden')
+	treecko.classList.add('hidden')
+	mudkip.classList.add('hidden')
+	torchic.classList.add('hidden')
+	bulbasaur.classList.add('hidden')
+}
+
+function cyndaquilNext(){
+	charmander.classList.add('hidden')
+	squirtle.classList.add('hidden')
+	pikachu.classList.add('hidden')
+	totodile.classList.add('hidden')
+	chikorita.classList.add('hidden')
+	cyndaquil.classList.toggle('hidden')
+	treecko.classList.add('hidden')
+	mudkip.classList.add('hidden')
+	torchic.classList.add('hidden')
+	bulbasaur.classList.add('hidden')
+}
+
+function treeckoNext(){
+	charmander.classList.add('hidden')
+	squirtle.classList.add('hidden')
+	pikachu.classList.add('hidden')
+	totodile.classList.add('hidden')
+	chikorita.classList.add('hidden')
+	cyndaquil.classList.add('hidden')
+	treecko.classList.toggle('hidden')
+	mudkip.classList.add('hidden')
+	torchic.classList.add('hidden')
+	bulbasaur.classList.add('hidden')
+
 
 }
 
-function claireNext(){
-	andi.classList.add('hidden')
-	sharleen.classList.add('hidden')
-	claire.classList.toggle('hidden')
+function mudkipNext(){
+	charmander.classList.add('hidden')
+	squirtle.classList.add('hidden')
+	pikachu.classList.add('hidden')
+	totodile.classList.add('hidden')
+	chikorita.classList.add('hidden')
+	cyndaquil.classList.add('hidden')
+	treecko.classList.add('hidden')
+	mudkip.classList.toggle('hidden')
+	torchic.classList.add('hidden')
+	bulbasaur.classList.add('hidden')
 }
 
-function sharleenNext(){
-	andi.classList.add('hidden')
-	sharleen.classList.add('hidden')
-	claire.classList.toggle('hidden')
+function torchicNext(){
+	charmander.classList.add('hidden')
+	squirtle.classList.add('hidden')
+	pikachu.classList.add('hidden')
+	totodile.classList.add('hidden')
+	chikorita.classList.add('hidden')
+	cyndaquil.classList.add('hidden')
+	treecko.classList.add('hidden')
+	mudkip.classList.add('hidden')
+	torchic.classList.toggle('hidden')
+	bulbasaur.classList.add('hidden')
 }
