@@ -1,3 +1,9 @@
-.hidden{
-	display: none;
+
+
+.selected {
+    border: 5px solid blue; /* Example style for selected Pokémon */
+}
+
+.noneSelected{
+    border-style:none;
 }
