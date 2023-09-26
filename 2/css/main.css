@@ -1,4 +1,14 @@
+*{
+    box-sizing: border-box;
+}
 
+body{
+    margin: 0;
+}
+
+.genOneContainer{
+    width:100%;
+}
 
 .selected {
     border: 5px solid blue; /* Example style for selected Pokémon */
