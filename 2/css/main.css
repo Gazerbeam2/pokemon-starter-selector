@@ -4,12 +4,39 @@
 
 body{
     margin: 0;
+    font-size:16px;
+}
+
+.h1_section{
+    border:2px solid red;
+    text-align:center;
+    padding:3.2em;
+    border:2px solid red;
+    font-size:1.5rem;
+    background-color: #3B4CCA;
+    color:white;
+
+}
+.h2_section{
+    border:2px solid red;
+    text-align: center;
+    padding:0.75em;
+    background: #B3A125;
+    color:white;
+    width:100%;
+
+
 }
 
 .genOneContainer{
-    width:100%;
+
 }
 
+.flex_1{
+    display:flex;
+    justify-content:space-around;
+
+}
 .selected {
     border: 5px solid blue; /* Example style for selected Pokémon */
 }
