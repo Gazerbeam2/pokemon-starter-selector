@@ -2,9 +2,15 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: PokemonFontFace; /* Give your font a name */
+    src: url(PokemonFont.ttf) format(truetype); /* Specify the path to your TFF file */
+  }
+
 body{
     margin: 0;
     font-size:16px;
+    font-family: PokemonFontFace, sans-serif;
 }
 
 .h1_section{
@@ -28,13 +34,10 @@ body{
 
 }
 
-.genOneContainer{
-
-}
-
 .flex_1{
     display:flex;
     justify-content:space-around;
+    align-items: center;
 
 }
 .selected {
