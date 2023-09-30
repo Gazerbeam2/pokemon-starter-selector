@@ -1,9 +1,9 @@
 //Current Problems to be fixed: I need to unhide one photo from each generation. Current code only unhides one photo at a time.
 //Possible Test: Keep the ones of the different generation toggled but hide the ones from the same generation
 //Add background music and maybe sprites
+//
 
-
-const bulbasaur = document.querySelector('#bulbasaur')
+/*const bulbasaur = document.querySelector('#bulbasaur')
 const squirtle = document.querySelector('#squirtle')
 const charmander = document.querySelector('#charmander')
 const pikachu = document.querySelector('#pikachu')
@@ -15,13 +15,18 @@ const mudkip = document.querySelector('#mudkip')
 const torchic = document.querySelector('#torchic')
 
 
+
 document.querySelector('#bulbasaurHead').addEventListener('click', bulbasaurNext)
 document.querySelector('#squirtleHead').addEventListener('click', squirtleNext)
 document.querySelector('#charmanderHead').addEventListener('click', charmanderNext)
 document.querySelector('#pikachuHead').addEventListener('click', pikachuNext)
+
+
 document.querySelector('#totodileHead').addEventListener('click',totodileNext)
 document.querySelector('#chikoritaHead').addEventListener('click',chikoritaNext)
 document.querySelector('#cyndaquilHead').addEventListener('click',cyndaquilNext)
+
+
 document.querySelector('#treeckoHead').addEventListener('click',treeckoNext)
 document.querySelector('#torchicHead').addEventListener('click',torchicNext)
 document.querySelector('#mudkipHead').addEventListener('click',mudkipNext)
@@ -32,13 +37,14 @@ function bulbasaurNext(){
 	charmander.classList.add('hidden')
 	squirtle.classList.add('hidden')
 	pikachu.classList.add('hidden')
-	totodile.classList.add('hidden')
-	chikorita.classList.add('hidden')
-	cyndaquil.classList.add('hidden')
-	treecko.classList.add('hidden')
-	mudkip.classList.add('hidden')
-	torchic.classList.add('hidden')
 	bulbasaur.classList.toggle('hidden')
+	totodile.classList.toggle('hidden')
+	chikorita.classList.toggle('hidden')
+	cyndaquil.classList.toggle('hidden')
+	treecko.classList.toggle('hidden')
+	mudkip.classList.toggle('hidden')
+	torchic.classList.toggle('hidden')
+
 
 }
 
@@ -46,12 +52,12 @@ function charmanderNext(){
 	charmander.classList.toggle('hidden')
 	squirtle.classList.add('hidden')
 	pikachu.classList.add('hidden')
-	totodile.classList.add('hidden')
-	chikorita.classList.add('hidden')
-	cyndaquil.classList.add('hidden')
-	treecko.classList.add('hidden')
-	mudkip.classList.add('hidden')
-	torchic.classList.add('hidden')
+	totodile.classList.toggle('hidden')
+	chikorita.classList.toggle('hidden')
+	cyndaquil.classList.toggle('hidden')
+	treecko.classList.toggle('hidden')
+	mudkip.classList.toggle('hidden')
+	torchic.classList.toggle('hidden')
 	bulbasaur.classList.add('hidden')
 }
 
@@ -159,4 +165,26 @@ function torchicNext(){
 	mudkip.classList.add('hidden')
 	torchic.classList.toggle('hidden')
 	bulbasaur.classList.add('hidden')
+} */
+
+// Select all the Pokémon images within each generation
+const pokemonImages = document.querySelectorAll('.generation .pokemon-image');
+
+// Add click event listeners to each Pokémon image
+pokemonImages.forEach((image) => {
+    image.addEventListener('click', addBorder)
+		function addBorder(){
+			image.classList.add('selected');
+
+		const generationContainer = image.closest('.generation');
+        const otherPokemonImages = generationContainer.querySelectorAll('.pokemon-image');
+
+        otherPokemonImages.forEach((otherImage) => {
+            if (otherImage !== image) {
+                otherImage.classList.remove('selected');
+			}
+
+	})
+
 }
+})

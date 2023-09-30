@@ -1,5 +1,51 @@
-.hidden{
-	display: none;
+*{
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: PokemonFontFace; /* Give your font a name */
+    src: url(PokemonFont.ttf) format(truetype); /* Specify the path to your TFF file */
+  }
+
+body{
+    margin: 0;
+    font-size:16px;
+    font-family: PokemonFontFace, sans-serif;
+}
+
+.h1_section{
+    border:2px solid red;
+    text-align:center;
+    padding:3.2em;
+    border:2px solid red;
+    font-size:1.5rem;
+    background-color: #3B4CCA;
+    color:white;
+
+}
+.h2_section{
+    border:2px solid red;
+    text-align: center;
+    padding:0.75em;
+    background: #B3A125;
+    color:white;
+    width:100%;
+
+
+}
+
+.flex_1{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+
+}
+.selected {
+    border: 5px solid blue; /* Example style for selected Pokémon */
+}
+
+.noneSelected{
+    border-style:none;
 }
 
 /*Threre column layout with the generations.
