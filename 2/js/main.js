@@ -2,6 +2,7 @@
 //Possible Test: Keep the ones of the different generation toggled but hide the ones from the same generation
 //Add background music and maybe sprites
 
+
 const bulbasaur = document.querySelector('#bulbasaur')
 const squirtle = document.querySelector('#squirtle')
 const charmander = document.querySelector('#charmander')
