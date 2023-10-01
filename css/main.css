@@ -18,23 +18,29 @@ body{
 .h1_section{
     border:2px solid red;
     text-align:center;
-    padding:3.2em;
+    padding:0em;
     border:2px solid red;
-    font-size:1.5rem;
+    font-size:2.5rem;
     background-color: #3B4CCA;
     color:white;
 
 }
+
+h1{
+    align-self:center;
+}
+
 .h2_section{
     border:2px solid red;
     text-align: center;
-    padding:0.75em;
+    padding:3em;
     background: #B3A125;
     color:white;
+    font-size:1.25em;
 
 
 }
-.gen1header{
+.genheader{
     text-align:center;
     padding:1.1em;
     background-color: #CC0000;
