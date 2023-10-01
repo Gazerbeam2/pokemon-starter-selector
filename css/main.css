@@ -15,15 +15,11 @@ body{
     font-family: PokemonFontFace, sans-serif;
 }
 
-img{
-    max-width: 100%;
-}
+
 
 .h1_section{
-    border:2px solid red;
     text-align:center;
     padding:0em;
-    border:2px solid red;
     font-size:2.5rem;
     background-color: #3B4CCA;
     color:white;
@@ -35,7 +31,6 @@ h1{
 }
 
 .h2_section{
-    border:2px solid red;
     text-align: center;
     padding:3em;
     background: #B3A125;
