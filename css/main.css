@@ -15,8 +15,10 @@ body{
     font-family: PokemonFontFace, sans-serif;
 }
 
-
-
+img{
+    max-inline-size: 100%;
+    block-size: auto;
+}
 .h1_section{
     text-align:center;
     padding:0em;
