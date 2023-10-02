@@ -102,6 +102,10 @@ h1{
     align-self:center;
 }
 
+h3{
+    padding: 1.3em 0em;
+}
+
 .h2_section{
     text-align: center;
     padding:3em;
